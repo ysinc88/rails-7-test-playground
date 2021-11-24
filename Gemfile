@@ -64,3 +64,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Less rows, same information and easier on eyes - Win!
+gem "haml", "~> 5.2"
+gem "haml-rails", "~> 2.0"
