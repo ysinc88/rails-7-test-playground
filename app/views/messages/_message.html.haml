@@ -1,0 +1,12 @@
+.scaffold_record{:id => "#{dom_id message}"}
+  %p
+    %strong Room:
+    = message.room
+  %p
+    %strong From:
+    = message.from
+  %p
+    %strong Content:
+    = message.content
+  %p
+    = link_to "Show this message", message
